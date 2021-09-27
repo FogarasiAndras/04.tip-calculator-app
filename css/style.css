@@ -1,0 +1,144 @@
+@media screen and (max-width: 1000px){
+  .mainrow {
+    width:90%;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+  }
+ 
+
+input{
+    width:80%;
+    margin: auto;
+  }
+
+  
+.leftcard, .rightcard, .container {
+  text-align: center;
+}
+.leftcard{
+  margin:0px;
+}
+#billsection{
+  text-align: center;
+}
+
+
+  
+}
+
+
+/*Body*/
+body {
+  background-color: rgb(168, 223, 216);
+  padding: 0;
+  margin: auto;
+}
+
+/*Header*/
+header {
+  text-align: center;
+  color:rgb(2, 97, 97);
+}
+
+
+
+  /*Row*/
+  .mainrow {
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    
+    
+  }
+  /* Card */
+  .card {
+    border: none;
+  }
+  
+  /* Left Card */
+.leftcard{
+  min-width: 400px;
+}
+  
+  input {
+    background-color: rgb(222, 228, 223);
+    width:390px;
+    height:40px;
+    border:none;
+    border-radius: 5px;
+  }
+  
+  #custom {
+    width:390px;
+    height:40px;
+    border:none;
+    border-radius: 5px;
+  }
+  
+  /* Right Card */
+  
+  .rightcard {
+    background-color:rgb(24, 71, 49);
+    border-radius: 15px;
+    min-width: 400px;
+    
+  }
+  
+  h5 {
+    color:rgb(190, 221, 210);
+    text-align: left;
+  }
+  
+  h7 {
+    color:rgb(139, 165, 149);
+  }
+  
+  #tipamount, #totalamount {
+    color: rgb(190, 221, 210);
+  }
+
+
+
+
+/* Buttons */
+.btn1 {
+  background-color: rgb(24, 71, 49);
+  color:rgb(202, 241, 241);
+}
+
+.btn2{
+  background-color: rgb(74, 160, 131);
+}
+
+.btn3{
+  background-color: rgb(225, 235, 231);
+}
+
+.btn1, .btn2, .btn3 {
+  width:110px;
+  height:60px;
+  margin-bottom: 20px;
+}
+
+.btn4{
+  background-color: rgb(74, 160, 131);
+  width:90%;
+  font-weight: bold;
+  color: rgb(16, 26, 16)
+}
+
+.resetbtn {
+  text-align: center;
+  
+}
+
+.buttonsleftdiv{
+  margin: 0;
+  position: relative;
+}
+
+/*Attribution, footer*/
+
+.attribution { font-size: 11px;  text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
